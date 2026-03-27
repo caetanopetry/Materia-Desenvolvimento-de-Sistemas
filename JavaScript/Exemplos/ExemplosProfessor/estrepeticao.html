@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de repetição </title>
+</head>
+<body>
+    <h1>Exemplo com estrutura de for</h1>
+    
+    <script>
+        let numero = parseInt(prompt("Digite um número: "))
+        for (x = 1; x <= 10 ; x++) {
+            let resultado = numero * x
+            document.write(numero + "x" + x + "=" + resultado + "<br>")
+            
+        }
+
+        document.write("<h2> Exemplo com  while </h2>")
+        let contador = 1
+        while (contador <= 10) {
+            let resultado = numero * contador
+            document.write(numero + "x" + contador + "=" + resultado + "<br>")
+            contador++
+        }
+
+
+        document.write("<h2> Exemplo com  while </h2>")
+        let cont = 1
+
+        do{
+            let resultado = numero * contp
+            document.write(numero + "x" + cont + "=" + resultado + "<br>")
+            cont++
+        }
+        while (cont <= 10)
+
+    </script>
+
+</body>
+</html>

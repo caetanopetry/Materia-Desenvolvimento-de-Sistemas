@@ -1,0 +1,85 @@
+
+	#frmContato {
+		width:500px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;	
+	}
+
+	#frmContato label {
+		display:block;
+		margin-bottom:20px;	
+	}
+	#frmContato interesse{
+		display:block;		
+	}	
+	#frmContato radio1{
+		display:block;
+	}
+	#frmContato radio2{
+		display:block;
+	}
+
+	#frmContato textarea {
+		width:100%;		
+		margin-bottom:15px;
+		height:180px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;
+	}
+
+	#frmContato textarea:focus {
+		border:1px dashed blue;	
+	}
+
+	#frmContato label input:hover {
+		border:1px dashed blue;
+	}
+
+
+	#frmContato label input {
+	width:350px;
+	border:1px solid gray;
+	border-radius:10px;
+	padding:7px;
+	
+	}
+	p{
+	   margin-left: 12px;	
+	}
+	#campoNome{
+		margin-left: 5px;
+		border:1px dashed blue
+	}
+	
+	#campoCpf{
+		margin-left: 5px;	
+		border:1px dashed blue
+	}
+	
+	#frmContato p input {
+	width:120px;
+	border:1px solid gray;
+	border-radius:10px;
+	padding:7px;
+	
+}
+.formulario_botao {
+	border-radius:10px;
+	border:1px solid gray;
+	color:white;
+	background:blue;
+	padding:10px;
+}
+
+.formulario_botao:hover {
+	background:black;
+}
+
+#erro{
+  color:red;
+
+
+}

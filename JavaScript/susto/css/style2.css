@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#susto {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
