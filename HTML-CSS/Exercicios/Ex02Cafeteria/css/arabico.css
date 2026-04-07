@@ -1,0 +1,20 @@
+.receita {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.receita p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.receita a {
+    text-decoration: none;
+    color: #6f4e37;
+    font-weight: bold;
+}
