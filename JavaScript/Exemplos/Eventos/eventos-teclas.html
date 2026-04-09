@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    function acao() {
+            alert("A tecla foi pressionada")
+        }
+
+    function acao2() {
+        alert("onkeypress!")
+
+
+    }    
+
+    function acao3() {
+        alert("onkeyup")
+
+    }
+
+
+
+    </script>
+
+
+    <div onkeydown="acao()" class="caixa"></div>
+    <hr>    
+    
+    <div onkeypress="acao2()" class="caixa"></div>
+    <hr>
+
+    <div onkeyup="acao3()" class="caixa"></div>
+    <hr>
+
+    <!-- A ordem dos eventos relacionados ao evento
+     onkeypress:
+     onkeydown:
+     onkleyup:
+     Nota: O evento onkeypress não é disparado para todas as teclas (por exemplo, Shift, Ctrl, Alt, Esc) e as teclas de navegação (Setas, Home, End). 
+     O evento onkeydown é disparado para todas as teclas, incluindo a s teclas de controle e navegação. 
+     O evento onkeyup é disparado quando a tecla é liberada, independentemente do tipo de tecla.
+
+    -->
+    
+    </script>
+</body>
+</html>

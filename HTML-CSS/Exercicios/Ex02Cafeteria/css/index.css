@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.secao-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.secao-produtos div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 220px;
+
+}
+
+.secao-produtos img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.secao-produtos a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5c3a21;
+}
+
+.secao-produtos a:hover {
+    color: #8b5e34;
+}
+#susto {
+    display: none;
+    position: fixed;
+    width: 95vw;
+    height: 95vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}

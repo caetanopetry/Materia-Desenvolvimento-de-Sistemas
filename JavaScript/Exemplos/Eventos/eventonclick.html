@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .caixa{
+        background-color: #ccc;
+        width: 150px;
+        height: 150px
+    }
+</style>
+<body>
+    <script>
+
+    function acao() {
+            alert("Você clicou 1 vez!")
+        }
+
+    function acao2() {
+        alert("Você clicou 2 vezes!")
+
+
+    }    
+
+    function acao3() {
+        alert("Mouse sobre o elemnto!")
+
+    }
+
+    function acao4() {
+        alert("Mouse saiu do elemento!")
+
+    }
+
+    </script>
+
+
+    <div onclick="acao()" class="caixa"></div>
+    <hr>    
+    
+    <div ondblclick="acao2()" class="caixa"></div>
+    <hr>
+    
+    <div onmouseover="acao3()" class="caixa"></div>
+    <hr>
+
+    
+    <div  onmouseout="acao4()" class = "caixa"></div>
+    <hr>
+    
+</body>
+</html>
