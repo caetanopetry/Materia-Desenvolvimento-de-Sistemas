@@ -1,0 +1,49 @@
+<html>
+	<head>
+		
+		<meta charset="utf-8">
+		<link href="css/estilo1.css" rel="stylesheet" type="text/css"/>
+		<title>Título da página</title>
+		
+	</head>
+	<body>
+		
+		<form name="form" id="frmContato"  action=""  onSubmit="return validarcampo();">
+		<label for="campoNome">	       
+				Nome: <input type="text"  name="campoNome" id="campoNome" />
+			</label>
+
+			<label for="campoEmail">
+				E-mail: <input type="text" name="campoEmail"  id = "campoEmail="   />
+			</label>
+		    <p>	
+               Data:						   
+			  <input type="text" name="txtdata" id="data" size="10"  onkeypress="mascara_data(this.id);" maxlength="10"/></td>		
+			</p>  
+			<p>
+				Cpf: <input type="text" name="campoCpfs" id="campoCpf"  onBlur="ValidaCpf(document.getElementById('campoCpf').value)"/>
+			</p>														  
+			
+			Selecione o seu interesse
+			<select name="interesse" id="interesse">
+              <option value="Duvida">Dúvida</option>
+              <option value="Reclamacao">Reclamacao</option>
+              <option value="Sugestao">Sugestao</option>		  
+              <option value="-1" selected="selected">Selecione uma opção</option>
+            </select>
+			</br>	
+			</br>			
+			Mensagem		
+			<textarea id="mensagem"></textarea>	
+					
+			<input type="submit" value="Enviar formulário" class="formulario_botao" />
+			<br><br>
+			<div id="erro">
+
+			</div>			
+		</form>
+	</body>
+	<script language="javascript" src="js/funcoes1.js"></script>
+
+</html>
+

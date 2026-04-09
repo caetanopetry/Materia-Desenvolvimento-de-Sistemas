@@ -1,0 +1,24 @@
+/*
+ flex-grow. Essa propriedade indica como um elemento filho (o card) ocupará o espaço disponível, conforme a largura do container pai. 
+ O flex-grow é usado somente no elemento filho, ou seja, no card. O valor do flex-grow é um número inteiro que indica a proporção de espaço que o elemento deve ocupar em relação aos outros elementos irmãos. Por exemplo, se um card tiver flex-grow: 1 e outro card tiver flex-grow: 2, o segundo card ocupará o dobro do espaço disponível em comparação com o primeiro card.
+ O valor 1 na propriedade indica que a taxa de crescimento será padrão.
+*/
+
+
+.container {
+  padding: 80px 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cards {
+  width: 250px;
+  flex-grow: 1;
+}
+
+.cards img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+      const notas = [7, 8, 6, 9];
+      let soma = 0;
+
+        for (let nota of notas) {
+            soma += nota;
+        }
+
+        const media = soma / notas.length;
+        console.log("Média:", media.toFixed(1));
+    </script> -->
+
+    <!-- Modificações teste: -->
+<script>
+let palavra = "sair"
+    const notas = []
+    let soma = 0
+    
+    let entrada = prompt("(sair para parar o programa) Digite uma nota:")
+    
+    while (entrada !== palavra) {
+        let nota = Number(entrada)
+    
+        if (!isNaN(nota)) {
+            notas.push(nota)
+        } else {
+            alert("Digite um número válido!")
+        }
+    
+        entrada = prompt("(sair para parar o programa) Digite uma nota:")
+    }
+    
+    for (let nota of notas) {
+        soma += nota
+    }
+    
+    const media = soma / notas.length
+    
+    console.log("Média:", media.toFixed(1))
+    
+    </script>
+</body>
+</html>

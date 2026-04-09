@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+form, #listaTarefas {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    list-style: none;
+  }
+  
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+button[type="submit"] {
+    background: #28a745;
+  }
+  
+  #btnRemover {
+    background: #dc3545;
+  }
+  
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+.selecionado {
+    background: #d1ecf1;
+  }
+
+#btnSelecionar {
+    background: #007bff;
+    margin-top: 10px;
+  }

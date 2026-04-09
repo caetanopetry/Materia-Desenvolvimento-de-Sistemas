@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nomes = [];
+
+        // 1) Preencher o array
+        for (let i = 0; i < 4; i++) {
+            nomes.push(prompt("Digite um nome:"));
+        }
+
+        console.log("Lista atual:", nomes);
+
+    // 2) Buscar usando includes (contains)
+        let busca = prompt("Qual nome deseja procurar?");
+        
+        if (nomes.includes(busca)) {
+            console.log("Nome encontrado!");
+        } else {
+            console.log("Nome não encontrado.");
+        }
+
+    // 3) Remover um nome da lista
+        let remover = prompt("Qual nome deseja remover da lista?");
+
+        if (nomes.includes(remover)) {
+            let posicao = nomes.indexOf(remover); // pega a posição
+            nomes.splice(posicao, 1); // remove 1 item da posição
+            console.log("Nome removido com sucesso!");
+        } else {
+            console.log("Nome não existe na lista.");
+        }
+
+        // 4) Mostrar lista final
+        console.log("Lista final:", nomes);
+    
+    </script>
+   
+</body>
+</html>

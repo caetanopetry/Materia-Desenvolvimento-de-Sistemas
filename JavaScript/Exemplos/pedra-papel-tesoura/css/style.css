@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#f2f2f2;
+}
+
+.opcoes img{
+    width:120px;
+    margin:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.opcoes img:hover{
+    transform:scale(1.2);
+}
+
+.resultado{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    margin-top:20px;
+}
+
+.resultado img{
+    width:120px;
+}
+
+.placar{
+    font-size:22px;
+    margin:20px;
+    font-weight:bold;
+}
