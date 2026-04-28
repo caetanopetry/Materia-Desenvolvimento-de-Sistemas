@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eveento Onfocus</h1>
+
+    <script>
+
+        function acao(x) {
+            x.style.backgroundColor = "blue"
+        }
+
+        function acao2(x) {
+            x.style.backgroundColor = "red"
+        }
+    </script>
+
+
+     
+    <input onfocus="acao(this)" onblur="acao2(this)" type="text" >
+    <input onfocus="acao(this)" onblur="acao2(this)" type="text" >
+
+</body>
+</html>

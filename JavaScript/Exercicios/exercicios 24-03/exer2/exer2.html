@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Calculadora Básica</h1>
+
+  <form>
+
+    <div>
+      <label for="inNum1">Primeiro número:</label>
+      <input type="number" id="inNum1" required>
+    </div>
+
+    <div>
+      <label for="inNum2">Segundo número:</label>
+      <input type="number" id="inNum2" required>
+    </div>
+
+    <div>
+      <label for="inOperacao">Operação:</label>
+      <select id="inOperacao" required>
+        <option value="">Selecione</option>
+        <option value="soma">Adição (+)</option>
+        <option value="sub">Subtração (-)</option>
+        <option value="multi">Multiplicação (×)</option>
+        <option value="div">Divisão (÷)</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="submit" value="Calcular">
+    </div>
+
+  </form>
+
+  <h3 id="inResultado"></h3>
+  
+
+  <script src="exer2.js"></script>
+</body>
+</html>
