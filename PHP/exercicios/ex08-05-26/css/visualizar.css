@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 30px;
+}
+
+.container {
+    background: white;
+
+    width: 800px;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #333;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #28a745;
+
+    color: white;
+
+    padding: 12px;
+
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-editar {
+    text-decoration: none;
+
+    background: #28a745;
+
+    color: white;
+
+    padding: 8px 14px;
+
+    border-radius: 4px;
+
+    transition: 0.3s;
+}
+
+.btn-editar:hover {
+    background: #218838;
+}
+
+.mensagem {
+    background: #d4edda;
+
+    color: #155724;
+
+    border: 1px solid #c3e6cb;
+
+    padding: 12px;
+
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+}
